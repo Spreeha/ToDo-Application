@@ -52,11 +52,12 @@ function newTodo() {
 
 
   delbutton.addEventListener("click", function() {
-    this.parentNode.remove();
-    items = Number(itemCountSpan.innerHTML) - 1;
-    itemCountSpan.innerHTML=items
+
     uncheck = Number(uncheckedCountSpan.innerHTML) - 1;
     uncheckedCountSpan.innerHTML=uncheck
+    items = Number(itemCountSpan.innerHTML) - 1;
+    itemCountSpan.innerHTML=items
+    this.parentNode.remove();
 
   });
 

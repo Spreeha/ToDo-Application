@@ -37,7 +37,7 @@ ul {
 }
 
 .myList {
-  padding:5px;
+  padding:10px;
 }
 
 .title, .controls, .button {
@@ -54,10 +54,11 @@ ul {
 
 .dbutton {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  padding: 14px 40px;
+  padding: 8px 16px;
   background-color:#5d97be;
   color:white;
   border-radius: 8px;
+  float: right;
 }
 
 .todo-list {
