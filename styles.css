@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 html, body {
   background-color: #eee;
   margin: 0;
   padding: 0;
+  background-color: #a0d2eb;
 }
 
 ul {
@@ -25,12 +27,17 @@ ul {
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 10px;
   display: flex;
   flex-direction: column;
   background-color: white;
-  height: 100vh;
+  height: 90vh;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.myList {
+  padding:5px;
 }
 
 .title, .controls, .button {
@@ -38,7 +45,11 @@ ul {
 }
 
 .button {
-  padding: 10px 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 14px 40px;
+  background-color:#5d97be;
+  color:white;
+  border-radius: 8px;
 }
 
 .todo-list {
