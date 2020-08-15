@@ -13,6 +13,7 @@ function newTodo() {
   /*alert('New TODO button clicked!')*/
   var task = prompt("Enter your task ");
   var list = document.createElement("li");
+  list.setAttribute("class","myList")
   var label = document.createTextNode(task);
 
   var check = document.createElement("input");
